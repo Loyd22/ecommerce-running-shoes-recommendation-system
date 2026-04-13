@@ -1,0 +1,402 @@
+[
+  {
+    "id": "shoe_001",
+    "name": "AirFlex Start",
+    "brand": "Nike",
+    "category": "running_shoes",
+    "price": 3200,
+    "budget_band": "budget",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "lightweight",
+      "soft_midsole",
+      "breathable_upper"
+    ],
+    "short_description": "An affordable everyday road running shoe for new runners.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_002",
+    "name": "Pegasus Daily 40",
+    "brand": "Nike",
+    "category": "running_shoes",
+    "price": 6800,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "balanced_cushioning",
+      "durable_outsole",
+      "versatile"
+    ],
+    "short_description": "A balanced road shoe for daily runs and regular training.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_003",
+    "name": "Zoom Tempo Edge",
+    "brand": "Nike",
+    "category": "running_shoes",
+    "price": 9200,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "speed_training",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "responsive_foam",
+      "fast_ride",
+      "lightweight"
+    ],
+    "short_description": "A responsive shoe for runners focused on faster training sessions.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_004",
+    "name": "Gel Comfort Ride",
+    "brand": "ASICS",
+    "category": "running_shoes",
+    "price": 5400,
+    "budget_band": "mid",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "stability",
+    "fit_type": "regular",
+    "key_features": [
+      "extra_support",
+      "soft_landing",
+      "heel_stability"
+    ],
+    "short_description": "A stable and comfortable road shoe for runners needing added support.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_005",
+    "name": "Gel Trail Guard",
+    "brand": "ASICS",
+    "category": "running_shoes",
+    "price": 7600,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "trail_running",
+    "terrain": "trail",
+    "support_level": "stability",
+    "fit_type": "regular",
+    "key_features": [
+      "rugged_outsole",
+      "protective_upper",
+      "trail_grip"
+    ],
+    "short_description": "A trail shoe with grip and support for uneven surfaces.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_006",
+    "name": "MetaSpeed Spark",
+    "brand": "ASICS",
+    "category": "running_shoes",
+    "price": 11800,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "race_day",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "narrow",
+    "key_features": [
+      "race_focused",
+      "carbon_plate",
+      "lightweight"
+    ],
+    "short_description": "A premium race-focused shoe built for fast road efforts.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_007",
+    "name": "CloudStart Run",
+    "brand": "On",
+    "category": "running_shoes",
+    "price": 6100,
+    "budget_band": "mid",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "comfortable_step_in",
+      "lightweight",
+      "smooth_transition"
+    ],
+    "short_description": "A beginner-friendly road shoe with a smooth and light ride.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_008",
+    "name": "CloudUltra Trail",
+    "brand": "On",
+    "category": "running_shoes",
+    "price": 10400,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "trail_running",
+    "terrain": "trail",
+    "support_level": "neutral",
+    "fit_type": "wide",
+    "key_features": [
+      "long_distance_comfort",
+      "trail_grip",
+      "protective_design"
+    ],
+    "short_description": "A premium trail shoe for long off-road runs and rough terrain.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_009",
+    "name": "FloatRide Easy",
+    "brand": "Reebok",
+    "category": "running_shoes",
+    "price": 3500,
+    "budget_band": "budget",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "wide",
+    "key_features": [
+      "affordable",
+      "soft_cushioning",
+      "wide_fit"
+    ],
+    "short_description": "A budget-friendly daily running shoe with a roomier fit.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_010",
+    "name": "SpeedRise Pro",
+    "brand": "Reebok",
+    "category": "running_shoes",
+    "price": 5700,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "speed_training",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "snappy_feel",
+      "lightweight",
+      "tempo_ready"
+    ],
+    "short_description": "A fast training shoe for runners working on pace and intervals.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_011",
+    "name": "Fresh Foam Daily",
+    "brand": "New Balance",
+    "category": "running_shoes",
+    "price": 5900,
+    "budget_band": "mid",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "wide",
+    "key_features": [
+      "soft_cushioning",
+      "wide_fit",
+      "beginner_friendly"
+    ],
+    "short_description": "A soft and comfortable road shoe ideal for easy runs and walkers.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_012",
+    "name": "FuelCell Tempo X",
+    "brand": "New Balance",
+    "category": "running_shoes",
+    "price": 9800,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "speed_training",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "responsive_ride",
+      "tempo_focus",
+      "lightweight"
+    ],
+    "short_description": "A premium speed shoe made for strong training efforts.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_013",
+    "name": "Arahi Support 7",
+    "brand": "HOKA",
+    "category": "running_shoes",
+    "price": 8400,
+    "budget_band": "premium",
+    "experience_level": "intermediate",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "stability",
+    "fit_type": "regular",
+    "key_features": [
+      "max_cushion",
+      "support_frame",
+      "smooth_ride"
+    ],
+    "short_description": "A cushioned stability shoe for runners who want support without stiffness.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_014",
+    "name": "Clifton Easy 9",
+    "brand": "HOKA",
+    "category": "running_shoes",
+    "price": 7900,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "max_cushion",
+      "easy_miles",
+      "smooth_transition"
+    ],
+    "short_description": "A cushioned road shoe designed for comfortable everyday mileage.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_015",
+    "name": "Torrent Trail Lite",
+    "brand": "HOKA",
+    "category": "running_shoes",
+    "price": 8200,
+    "budget_band": "premium",
+    "experience_level": "intermediate",
+    "use_case": "trail_running",
+    "terrain": "trail",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "agile_trail_ride",
+      "grippy_outsole",
+      "lightweight"
+    ],
+    "short_description": "A lighter trail shoe for runners who want grip without too much bulk.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_016",
+    "name": "AdiStart Run",
+    "brand": "Adidas",
+    "category": "running_shoes",
+    "price": 3300,
+    "budget_band": "budget",
+    "experience_level": "beginner",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "narrow",
+    "key_features": [
+      "budget_friendly",
+      "lightweight",
+      "simple_design"
+    ],
+    "short_description": "A simple and affordable road running shoe for beginners.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_017",
+    "name": "Boston Pace 12",
+    "brand": "Adidas",
+    "category": "running_shoes",
+    "price": 8700,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "speed_training",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "regular",
+    "key_features": [
+      "tempo_ready",
+      "responsive_midsole",
+      "lightweight"
+    ],
+    "short_description": "A fast trainer for advanced runners chasing better speed sessions.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_018",
+    "name": "Terrex Trail Motion",
+    "brand": "Adidas",
+    "category": "running_shoes",
+    "price": 6400,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "trail_running",
+    "terrain": "trail",
+    "support_level": "stability",
+    "fit_type": "regular",
+    "key_features": [
+      "trail_grip",
+      "supportive_base",
+      "protective_upper"
+    ],
+    "short_description": "A supportive trail option for runners tackling rougher paths.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_019",
+    "name": "Wave Guide 3",
+    "brand": "Mizuno",
+    "category": "running_shoes",
+    "price": 6900,
+    "budget_band": "mid",
+    "experience_level": "intermediate",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "stability",
+    "fit_type": "regular",
+    "key_features": [
+      "structured_support",
+      "durable",
+      "balanced_cushioning"
+    ],
+    "short_description": "A stable road shoe for runners who want support and durability.",
+    "availability": "in_stock"
+  },
+  {
+    "id": "shoe_020",
+    "name": "Wave Sky Comfort",
+    "brand": "Mizuno",
+    "category": "running_shoes",
+    "price": 9600,
+    "budget_band": "premium",
+    "experience_level": "advanced",
+    "use_case": "daily_jogging",
+    "terrain": "road",
+    "support_level": "neutral",
+    "fit_type": "wide",
+    "key_features": [
+      "premium_cushioning",
+      "wide_fit",
+      "long_run_comfort"
+    ],
+    "short_description": "A premium cushioned shoe for long road runs and comfort-focused runners.",
+    "availability": "in_stock"
+  }
+]
