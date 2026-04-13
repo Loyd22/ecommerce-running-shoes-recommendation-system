@@ -1,6 +1,3 @@
-// Recommendation list component placeholder.
-// frontend/src/components/product-finder/RecommendationList.tsx
-
 import type { RecommendationResponse } from "../../types/recommendation";
 import RecommendationCard from "./RecommendationCard";
 
@@ -9,16 +6,25 @@ interface RecommendationListProps {
 }
 
 export default function RecommendationList({ data }: RecommendationListProps) {
-  return (
-    <div className="space-y-4">
-      <div className="rounded-lg border p-4 bg-white">
-        <h2 className="text-xl font-semibold">Recommendation Summary</h2>
-        <p className="mt-2 text-gray-700">{data.summary}</p>
-      </div>
+  const recommendationCount = data.recommendations.length;
 
-      <div className="space-y-3">
-        {data.recommendations.map((item) => (
-          <RecommendationCard key={item.product_id} item={item} />
+  return (
+    <div className="recommendation-list">
+      <section className="result-summary">
+        <div className="result-summary__chips">
+          <span className="result-chip result-chip--accent">AI tailored</span>
+          <span className="result-chip">{recommendationCount} matches found</span>
+          <span className="result-chip result-chip--muted">
+            {data.request_id ? `Request #${data.request_id}` : "Session active"}
+          </span>
+        </div>
+        <h3 className="result-summary__title">Why these shoes are recommended</h3>
+        <p className="result-summary__copy">{data.summary}</p>
+      </section>
+
+      <div className="recommendation-list__cards">
+        {data.recommendations.map((item, index) => (
+          <RecommendationCard key={item.product_id} item={item} rank={index + 1} />
         ))}
       </div>
     </div>
